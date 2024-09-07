@@ -4,7 +4,6 @@ import { AppService } from './app.service';
 import { ProxyMiddleware } from './proxy.middleware';
 
 @Module({
-  imports: [],
   controllers: [AppController],
   providers: [AppService],
 })
